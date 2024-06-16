@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+html {
+  overflow-x: hidden;
+}
+body {
+  color: rgba(51, 51, 51);
+  overflow-x: hidden;
+}
+
+.masthead {
+  background-color: #ffffff;
+}
+.msbg {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 36px;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 24px;
+}
+
+h4 {
+  font-size: 1.15rem;
+  line-height: 22px;
+}
+.for-nav li {
+  padding-right: 50px;
+}
+.genrad {
+  border-radius: 10px;
+}
+a {
+  color: rgb(40, 100, 226);
+  font-weight: 500;
+  text-decoration: underline;
+}
+.skt {
+  width: 470px;
+  height: 650px;
+  background-position-x: -305px;
+  background-size: 210%;
+}
+
+.grn-cta {
+  background: linear-gradient(-180deg, #2c915b, #187d47);
+  color: white;
+  font-weight: 700;
+  padding: 12px;
+  border-radius: 10px;
+}
+.blu-cta {
+  background: linear-gradient(-180deg, rgb(40, 108, 226), rgb(40, 108, 226));
+  color: white;
+  font-weight: 700;
+  padding: 12px;
+  border-radius: 10px;
+}
+.ylo-cta {
+  background: linear-gradient(-180deg, #f4ba01, #fea503);
+  color: #333;
+  font-weight: 700;
+  padding: 12px;
+  border-radius: 10px;
+}
+.strip-btn {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 16px;
+  color: rgb(40, 108, 226);
+  font-weight: 700;
+}
+.pre-footer {
+  font-size: .75rem;
+}
+.fstripe {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  height: 50px;
+}
+.bar {
+  width: 5000px;
+  margin-left: -200px;
+}
+
+.shield p {
+  line-height: 1.5rem;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
