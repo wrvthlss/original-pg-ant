@@ -1,0 +1,173 @@
+:root {
+    --global-none: 0;
+    --global-txt-sm: 14px;
+    --global-txt-base: 16px;
+    --global-txt-lg: 18px;
+    --global-txt-xl: 24px;
+
+    /* Switcher */
+    --global-bg-gray-200: rgb(229 231 235);
+    --global-text-black: #333;
+
+    /* Find Care Button */
+    --global-bg-white: #fff;
+    --global-text-blue-500: rgb(59 130 246);
+    --global-rounded-3xl: 24px;
+    --global-pxy-63: 12px 24px 12px 24px;
+    --global-text-semibold: 600;
+    --global-border-blue-500: 2px solid rgb(59 130 246);
+
+    /* Log-In Button */
+    --global-bg-blue-500: rgb(59 130 246);
+    --global-text-white: #fff;
+    --global-text-login-btn: #fff;
+    --global-border-login-btn: rgb(59 130 246);
+
+
+    /* Masthead BG */
+    --global-hero-img: url('images/hero-img.png');
+    --global-hero-pos: 0 50%;
+    --global-hero-height: 570px;
+
+    /* Masthead H1 */
+    --global-text-size-5xl: 48px;
+    --global-h1-leading: 48px;
+
+    /* Masthead P */
+    --global-text-lg: 18px;
+
+    /* Get Started BTN */
+    --global-bg-green-500: rgb(34 197 94);
+
+    /* PH BTN */
+    --global-bg-phbtn: #fff;
+
+    /* Feats */
+    --global-ico-feat1: Url('images/feat1.svg');
+    --global-ico-feat2: Url('images/feat2.svg');
+    --global-ico-feat3: Url('images/feat3.svg');
+    --global-ico-width: 128px;
+    --global-ico-height: 128px;
+    --global-ico-size: contain;
+    --global-ico-rep: no-repeat;
+    --global-ico-pos: center;
+    --global-ico-feat-fltr: brightness(0) invert(1);
+
+    --global-pad-96: 96px 96px;
+    --global-feat-bg: #1e40af;
+    --global-feat-clr: #fff;
+
+    /* Callout */
+    --global-bg-blue-200: rgb(191 219 254);
+    --global-text-blue-800: rgb(30 64 175);
+    --global-text-size-3xl: 36px;
+    --global-text-size-xl: 28px;
+    --global-text-size-2xl: 32px;
+    --global-mt-20: 80px;
+    --global-pt-20: 80px;
+    --global-pb-20: 80px;
+}
+
+
+.for-nav {
+    background-color: var(--global-bg-gray-200);
+    color: var(--global-text-black)
+}
+
+.fcareBtn {
+    color: var(--global-text-blue-500);
+    background-color: var(--global-bg-white);
+    font-weight: var(--global-text-semibold);
+    border-radius: var(--global-rounded-3xl);
+    padding: var(--global-pxy-63);
+    border: var(--global-border-blue-500);
+}
+
+.loginBtn {
+    color: var(--global-text-white);
+    background-color: var(--global-bg-blue-500);
+    font-weight: var(--global-text-semibold);
+    border-radius: var(--global-rounded-3xl);
+    padding: var(--global-pxy-63);
+    border: var(--global-border-blue-500);
+}
+
+.mstbg {
+    background-image: var(--global-hero-img);
+    background-position: var(--global-hero-pos);
+    height: var(--global-hero-height);
+}
+
+.mstbg h1 {
+    color: var(--global-text-white);
+    font-size: var(--global-text-size-5xl);
+    line-height: var(--global-h1-leading);
+}
+
+.mstbg p {
+    color: var(--global-text-white);
+    font-size: var(--global-text-lg);
+}
+
+.getStBtn {
+    border-radius: var(--global-rounded-3xl);
+    padding: var(--global-pxy-63);
+    background-color: var(--global-bg-green-500);
+    font-weight: var(--global-text-semibold);
+}
+
+.phNumBtn {
+    border-radius: var(--global-rounded-3xl);
+    padding: var(--global-pxy-63);
+    background-color: var(--global-bg-white);
+    font-weight: var(--global-text-semibold);
+    color: var(--global-text-blue-500);
+}
+
+.rets {
+    padding: var(--global-pad-96);
+    background-color: var(--global-feat-bg);
+    color: var(--global-feat-clr);
+}
+
+.feat-icon {
+    width: var(--global-ico-width);
+    height: var(--global-ico-height);
+    background-size: var(--global-ico-size);
+    background-repeat: var(--global-ico-rep);
+    background-position: var(--global-ico-pos);
+    filter: var(--global-ico-feat-fltr);
+}
+
+.feat-1 .feat-icon {
+    background-image: var(--global-ico-feat1);
+}
+
+.feat-2 .feat-icon {
+    background-image: var(--global-ico-feat2);
+}
+
+.feat-3 .feat-icon {
+    background-image: var(--global-ico-feat3);
+}
+
+.mdco {
+    background-color: var(--global-bg-blue-200);
+    margin-top: var(--global-none);
+
+}
+
+.mdco h2 {
+    color: var(--global-text-blue-800);
+    font-size: var(--global-text-size-3xl);
+}
+
+.mdco p {
+    font-size: var(--global-txt-lg);
+
+}
+
+.mdco h3 {
+    font-weight: var(--global-text-semibold);
+    font-size: var(--global-text-size-xl);
+}

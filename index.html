@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,53 +11,64 @@
         .masthead {
             background-color: #ffffff;
         }
+
         .msbg {
             width: 100vw;
             height: 100vh;
             background-size: cover;
         }
+
         h1 {
             font-size: 2rem;
             font-weight: 700;
             line-height: 36px;
         }
+
         h2 {
             font-size: 1.5rem;
             font-weight: 700;
             line-height: 28px;
         }
+
         h3 {
             font-size: 1.25rem;
             line-height: 24px;
         }
+
         h4 {
             font-size: 1.15rem;
             line-height: 22px;
         }
+
         .for-nav li {
             padding-right: 50px;
         }
+
         .genrad {
             border-radius: 10px;
         }
+
         a {
             color: rgb(40, 100, 226);
             font-weight: 500;
             text-decoration: underline;
         }
+
         .skt {
             width: 470px;
             height: 650px;
             background-position-x: -305px;
             background-size: 210%;
         }
+
         .grn-cta {
-            background:#2c915b;
+            background: #2c915b;
         }
 
         .blu-cta {
             background: rgb(40, 108, 226);
         }
+
         .ylo-cta {
             background: linear-gradient(-180deg, #f4ba01, #fea503);
             color: #333;
@@ -64,6 +76,7 @@
             padding: 12px;
             border-radius: 10px;
         }
+
         .strip-btn {
             border: 1px solid lightgray;
             border-radius: 10px;
@@ -71,20 +84,25 @@
             color: rgb(40, 108, 226);
             font-weight: 700;
         }
+
         .pre-footer {
             font-size: .75rem;
         }
+
         .fstripe {
             border-bottom: 1px solid rgba(255, 255, 255, 0.3);
             height: 50px;
         }
+
         .bar {
             width: 5000px;
             margin-left: -200px;
         }
+
         .shield p {
             line-height: 1.5rem;
         }
+
         .text-balance {
             text-wrap: balance;
         }
@@ -92,40 +110,46 @@
         :root {
             --global-none: 0;
             --global-txt-sm: 14px;
-            --global-txt-base: 16px;
-            --global-txt-lg: 18px;
-            --global-txt-xl: 24px;
+            --global-txt-base: 14px;
+            --global-txt-lg: 14px;
+            --global-txt-xl: 18px;
+
 
             /* Switcher */
-          --global-bg-gray-200: rgb(229 231 235);
-          --global-text-black: #333;
+          --global-bg-gray-200: rgb(29 78 216);
+          --global-text-black: #fff;
 
           /* Find Care Button */
-          --global-bg-white: #fff;
-          --global-text-blue-500: rgb(59 130 246);
-          --global-rounded-3xl: 24px;
+          --global-bg-white: #2c915b;
+          --global-text-blue-500: #fff;
+          --global-rounded-3xl: 12px;
           --global-pxy-63: 12px 24px 12px 24px;
           --global-text-semibold: 600;
-          --global-border-blue-500: 2px solid rgb(59 130 246);
+          --global-border-blue-500: 2px solid #2c915b;
 
           /* Log-In Button */
           --global-bg-blue-500: rgb(59 130 246);
-          --global-text-white: #fff;
+          --global-text-white: #333;
+          --global-text-login-btn: #fff;
+          --global-border-login-btn: #2c915b;
 
           /* Masthead BG */
-          --global-hero-img: url('images/hero-img.png');
+          --global-hero-img: url('images/masthead-bg.jpeg');
           --global-hero-pos: 0 50%;
-          --global-hero-height: 570px;
+          --global-hero-height: 510px;
 
           /* Masthead H1 */
-          --global-text-size-5xl: 48px;
-          --global-h1-leading: 48px;
+          --global-text-size-5xl: 36px;
+          --global-h1-leading: 36px;
 
           /* Masthead P */
-          --global-text-lg: 18px;
+          --global-text-lg: 16px;
 
           /* Get Started BTN */
-          --global-bg-green-500:rgb(34 197 94);
+          --global-bg-green-500:#f4ba01;
+
+          /* PH BTN */
+          --global-bg-phbtn: rgb(40, 108, 226);
 
           /* Feats */
           --global-ico-feat1: Url('images/feat1.svg');
@@ -136,9 +160,11 @@
           --global-ico-size: contain;
           --global-ico-rep: no-repeat;
           --global-ico-pos: center;
-          --global-ico-feat-fltr: brightness(0) invert(1);
+          --global-ico-feat-fltr: brightness(1) invert(0);
 
-          --global-ptrlb-2420: 52px 52px;
+          --global-pad-96: 26px 96px;
+          --global-feat-bg: white;
+          --global-feat-clr: #333;
 
           /* Callout */
           --global-bg-blue-200: rgb(191 219 254);
@@ -167,12 +193,12 @@
         }
 
         .loginBtn {
-            color: var(--global-text-white);
+            color: var(--global-text-login-btn);
             background-color: var(--global-bg-blue-500);
             font-weight: var(--global-text-semibold);
             border-radius: var(--global-rounded-3xl);
             padding: var(--global-pxy-63);
-            border: var(--global-border-blue-500);
+            border: var(--global-border-login-btn);
         }
 
         .mstbg {
@@ -202,13 +228,15 @@
         .phNumBtn {
             border-radius: var(--global-rounded-3xl);
             padding: var(--global-pxy-63);
-            background-color: var(--global-bg-white);
+            background-color: var(--global-bg-phbtn);
             font-weight: var(--global-text-semibold);
             color: var(--global-text-blue-500);
         }
 
         .rets {
-            padding: var(--global-ptrlb-2420);
+            padding: var(--global-pad-96);
+            background-color: var(--global-feat-bg);
+            color: var(--global-feat-clr);
         }
 
         .feat-icon {
@@ -231,14 +259,14 @@
         }
 
         .mdco {
-            background-color: var(--global-bg-blue-200);
+            border-top: 15px solid #F9FAFB;
+            background-color: white;
             margin-top: var(--global-none);
-
         }
 
         .mdco h2 {
-            color: var(--global-text-blue-800);
-            font-size: var(--global-text-size-3xl);
+            color: #333;
+            font-size: 32px;
         }
 
         .mdco  p {
@@ -247,186 +275,199 @@
         }
 
         .mdco h3 {
-            font-weight: var(--global-text-semibold);
-            font-size: var(--global-text-size-xl);
+            font-weight: normal;
+            font-size: 24px;
         }
 
     </style>
 </head>
+
 <body>
-<header class='for-nav pl-20 text-sm'>
-    <ul class='flex justify-start py-4 font-bold'>
-        <li>For Employers</li>
-        <li>For Producers</li>
-        <li>For Providers</li>
-        <li>Medicaid Renewal</li>
-    </ul>
-</header>
-
-<nav class='feats flex justify-between items-center bg-white py-4 pl-20 pr-20 text-sm'>
-    <div class='flex items-center space-x-4'>
-        <div class='logo'>
-            <img src='images/logo.svg' alt='logo' height='50' width='150'>
-        </div>
-        <ul class='flex space-x-24'>
-            <li class='flex items-center'>Insurance Plans<span class='ml-1'>&#x25BC;</span></li>
-            <li class='flex items-center'>Member Support<span class='ml-1'>&#x25BC;</span></li>
-            <li class='flex items-center'>Health & Wellness Resources<span class='ml-1'>&#x25BC;</span></li>
+    <header class='for-nav pl-20 text-sm'>
+        <ul class='flex justify-start py-4 font-bold'>
+            <li>For Employers</li>
+            <li>For Producers</li>
+            <li>For Providers</li>
+            <li>Medicaid Renewal</li>
         </ul>
-    </div>
-    <div class='flex space-x-2'>
-        <button class='fcareBtn'>Find Care</button>
-        <button class='loginBtn'>Log In</button>
-    </div>
-</nav>
+    </header>
 
-<section class='masthead'>
-    <div class='msbg mstbg pt-20 pl-20'>
-        <h1 class='pb-4 w-1/2'>Medicaid Renewal and Healthcare Coverage</h1>
-        <p class='pb-4 w-1/2'>Learn more about Medicaid renewal, also called Medicaid redetermination, and the possible
-            impacts to your current health plan. We are here to help you stay covered.</p>
-        <p class='pb-4 masthead-help w-1/2'><strong>Need help?</strong> Answer a few quick questions to learn which
-            health coverage you qualify for, as well as daily needs like food and transportation.</p>
-        <button class='getStBtn'>Get Started</button>
-        <p class='pb-4 pt-4'>Or call us at the number below to learn more.</p>
-        <button class='blu-cta phNumBtn'>866-545-0385</button>
-    </div>
-</section>
-
-<section class="feats flex justify-between pt-24 pb-24 gap-8 px-20 bg-blue-800 text-white">
-    <div class="feat-1 flex items-center space-x-5">
-      <div class="feat-icon"></div>
-      <span>Enrolled in a Medicaid, CHIP, or Expansion plan and want to prepare for renewal? Keep your address updated with your state agency and watch for your renewal packet by mail.</span>
-    </div>
-  
-    <div class="feat-2 flex items-center space-x-5">
-      <div class="feat-icon"></div>
-      <span>If you lose Medicaid coverage, you are eligible for a special enrollment period. You typically have 59 days to find a new health insurance plan from the time you lose Medicaid.</span>
-    </div>
-  
-    <div class="feat-3 flex items-center space-x-5">
-      <div class="feat-icon"></div>
-      <span>Earn too much to qualify for Medicaid? You may qualify for an Individual & Family Health Insurance Plan as low as $-1 a month.</span>
-    </div>
-  </section>
-
-  <section class='mdco text-center pt-20 pb-20 px-24'>
-    <h2 class='pb-6'>Medicaid Renewal & Redetermination: What you Need To Know</h2>
-    <p class='pb-6'>During the Public Health Emergency (PHE), nearly all Medicaid, Children Health Insurance
-        Plans (CHIP), and Expansion members kept their coverage, regardless of changes in eligibility or status.
-        Legislation signed on December 29, 2022 allowed states to begin removing ineligible members from their
-        Medicaid programs starting April 1, 2023.</p>
-    <h3 class='pb-6'>You May Lose Coverage If You No Longer Qualify For Medicaid</h3>
-    <p>Medicaid renewals, also known as Medicaid redeterminations, have started again and millions of
-        individuals will need to take action to keep their current Medicaid coverage, or, if they no longer
-        qualify, find a new health plan that’s right for them. We can help you with your options, should you lose
-        coverage.</p>
-</section>
-
-<main class='w-full justify-center flex text-sm px-16'>
-    <div class='w-full'>
-
-        <div class='h-2 bg-gray-50 bar'></div>
-
-
-        <div class='h-2 bg-gray-50 bar'></div>
-
-        <section class='left-right-001 flex items-center px-8 pb-24 pt-8 text-sm mt-20 gap-12'>
-            <div class='flex-1'>
-                <h2 class='text-2xl font-bold mb-4'>Three Steps to Renew your Medicaid Coverage</h2>
-                <p class='mb-4'>We are here to help you prepare for your Medicaid renewal. Watch this video to get
-                    answers to your renewal questions, and learn how simple it can be to stay covered.</p>
+    <nav class='feats flex justify-between items-center bg-white py-4 pl-20 pr-20 text-sm'>
+        <div class='flex items-center space-x-4'>
+            <div class='logo'>
+                <img src='images/logo.svg' alt='logo' height='50' width='150'>
             </div>
-            <div class='flex-1'>
-                <img src='images/3steps.png' alt='three steps' width='530' height='300' class='ml-auto'>
-            </div>
-        </section>
+            <ul class='flex space-x-24'>
+                <li class='flex items-center'>Insurance Plans<span class='ml-1'>&#x25BC;</span></li>
+                <li class='flex items-center'>Member Support<span class='ml-1'>&#x25BC;</span></li>
+                <li class='flex items-center'>Health & Wellness Resources<span class='ml-1'>&#x25BC;</span></li>
+            </ul>
+        </div>
+        <div class='flex space-x-2'>
+            <button class='fcareBtn'>Find Care</button>
+            <button class='loginBtn'>Log In</button>
+        </div>
+    </nav>
 
-        <div class='h-2 bg-gray-50 bar'></div>
+    <section class='masthead'>
+        <div class='msbg mstbg pt-20 pl-20'>
+            <h1 class='pb-4 w-1/2'>Medicaid Renewal and Healthcare Coverage</h1>
+            <p class='pb-4 w-1/2'>Learn more about Medicaid renewal, also called Medicaid redetermination, and the
+                possible
+                impacts to your current health plan. We are here to help you stay covered.</p>
+            <p class='pb-4 masthead-help w-1/2'><strong>Need help?</strong> Answer a few quick questions to learn which
+                health coverage you qualify for, as well as daily needs like food and transportation.</p>
+            <button class='getStBtn'>Get Started</button>
+            <p class='pb-4 pt-4'>Or call us at the number below to learn more.</p>
+            <button class='blu-cta phNumBtn'>866-545-0385</button>
+        </div>
+    </section>
 
-        <section class='toggle-columns text-sm pt-20 px-8'>
-            <h1 class='text-center'>Frequently Asked Questions About Medicaid Renewal</h1>
+    <section class="feats rets flex justify-between gap-8 text-white">
+        <div class="feat-1 flex items-center space-x-5">
+            <div class="feat-icon"></div>
+            <span>Enrolled in a Medicaid, CHIP, or Expansion plan and want to prepare for renewal? Keep your address
+                updated with your state agency and watch for your renewal packet by mail.</span>
+        </div>
 
-            <div class='left-right flex items-start pt-12'>
+        <div class="feat-2 flex items-center space-x-5">
+            <div class="feat-icon"></div>
+            <span>If you lose Medicaid coverage, you are eligible for a special enrollment period. You typically have 59
+                days to find a new health insurance plan from the time you lose Medicaid.</span>
+        </div>
+
+        <div class="feat-3 flex items-center space-x-5">
+            <div class="feat-icon"></div>
+            <span>Earn too much to qualify for Medicaid? You may qualify for an Individual & Family Health Insurance
+                Plan as low as $-1 a month.</span>
+        </div>
+    </section>
+
+    <section class='mdco text-center pt-20 pb-20 px-24'>
+        <h2 class='pb-6'>Medicaid Renewal & Redetermination: What you Need To Know</h2>
+        <p class='pb-6'>During the Public Health Emergency (PHE), nearly all Medicaid, Children Health Insurance
+            Plans (CHIP), and Expansion members kept their coverage, regardless of changes in eligibility or status.
+            Legislation signed on December 29, 2022 allowed states to begin removing ineligible members from their
+            Medicaid programs starting April 1, 2023.</p>
+        <h3 class='pb-6'>You May Lose Coverage If You No Longer Qualify For Medicaid</h3>
+        <p>Medicaid renewals, also known as Medicaid redeterminations, have started again and millions of
+            individuals will need to take action to keep their current Medicaid coverage, or, if they no longer
+            qualify, find a new health plan that’s right for them. We can help you with your options, should you lose
+            coverage.</p>
+    </section>
+
+    <main class='w-full justify-center flex text-sm px-16'>
+        <div class='w-full'>
+
+            <div class='h-2 bg-gray-50 bar'></div>
+
+
+            <div class='h-2 bg-gray-50 bar'></div>
+
+            <section class='left-right-001 flex items-center px-8 pb-24 pt-8 text-sm mt-20 gap-12'>
                 <div class='flex-1'>
-                    <img src='images/faq1.webp' alt='what is medicaid renewal' width='440' height='470' class='genrad'>
+                    <h2 class='text-2xl font-bold mb-4'>Three Steps to Renew your Medicaid Coverage</h2>
+                    <p class='mb-4'>We are here to help you prepare for your Medicaid renewal. Watch this video to get
+                        answers to your renewal questions, and learn how simple it can be to stay covered.</p>
                 </div>
-                <div class='flex-1 space-y-4'>
-                    <h3 class='mb-2 font-bold pb-2'>What is Medicaid Renewal</h3>
-                    <div class='list-w-ico flex items-start space-x-2 pb-4'>
-                        <img src='images/feat1.svg' alt='feat1' width='40' height='40'>
-                        <div>
-                            <p class='leading-6'>Medicaid renewal is a yearly review completed by your state to check if
-                                you’re still eligible for Medicaid coverage. In most states, you have to renew your
-                                coverage every year to keep it. Medicaid renewals have restarted in all states following
-                                the end of the Public Health Emergency. <strong>Missing the deadline, not completing
-                                    paperwork, or forgetting a step in the renewal process all put you at risk of losing
-                                    Medicaid coverage.</strong></p>
+                <div class='flex-1'>
+                    <img src='images/3steps.png' alt='three steps' width='530' height='300' class='ml-auto'>
+                </div>
+            </section>
+
+            <div class='h-2 bg-gray-50 bar'></div>
+
+            <section class='toggle-columns text-sm pt-20 px-8'>
+                <h1 class='text-center'>Frequently Asked Questions About Medicaid Renewal</h1>
+
+                <div class='left-right flex items-start pt-12'>
+                    <div class='flex-1'>
+                        <img src='images/faq1.webp' alt='what is medicaid renewal' width='440' height='470'
+                            class='genrad'>
+                    </div>
+                    <div class='flex-1 space-y-4'>
+                        <h3 class='mb-2 font-bold pb-2'>What is Medicaid Renewal</h3>
+                        <div class='list-w-ico flex items-start space-x-2 pb-4'>
+                            <img src='images/feat1.svg' alt='feat1' width='40' height='40'>
+                            <div>
+                                <p class='leading-6'>Medicaid renewal is a yearly review completed by your state to
+                                    check if
+                                    you’re still eligible for Medicaid coverage. In most states, you have to renew your
+                                    coverage every year to keep it. Medicaid renewals have restarted in all states
+                                    following
+                                    the end of the Public Health Emergency. <strong>Missing the deadline, not completing
+                                        paperwork, or forgetting a step in the renewal process all put you at risk of
+                                        losing
+                                        Medicaid coverage.</strong></p>
+                            </div>
+                        </div>
+
+                        <div class='list-w-ico flex items-start space-x-2 pb-4'>
+                            <img src='images/feat2.svg' alt='feat2' width='40' height='40'>
+                            <p class='leading-6'><strong>If you’ve had a change in income, age, or other qualifying
+                                    factors</strong> since you enrolled in Medicaid, it’s possible you will no longer
+                                qualify.
+                                The only way to know for sure is to renew on time.</p>
+                        </div>
+
+                        <div class='list-w-ico flex items-start space-x-2'>
+                            <img src='images/feat3.svg' alt='feat3' width='40' height='40'>
+                            <p class='leading-6'>When it’s time for you to renew, you’ll get a notice telling you what
+                                to
+                                do. <strong>Be sure to follow the steps to renew before your deadline.</strong> If you
+                                have
+                                questions, call the Member Services number on your insurance ID card.</p>
                         </div>
                     </div>
+                </div>
 
-                    <div class='list-w-ico flex items-start space-x-2 pb-4'>
-                        <img src='images/feat2.svg' alt='feat2' width='40' height='40'>
-                        <p class='leading-6'><strong>If you’ve had a change in income, age, or other qualifying
-                            factors</strong> since you enrolled in Medicaid, it’s possible you will no longer qualify.
-                            The only way to know for sure is to renew on time.</p>
+    </main>
+
+    <footer class='bg-black text-white py-16 mt-16 text-sm'>
+        <div class='flex justify-center'>
+            <div class='grid grid-cols-1 md:grid-cols-3 gap-28'>
+                <div class='ftr-col-1'>
+                    <ul class='space-y-2'>
+                        <li>About Anthem</li>
+                        <li>Careers</li>
+                        <li>News From Our Press Room</li>
+                        <li>Site Map</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class='ftr-col-2'>
+                    <ul class='space-y-2'>
+                        <li>Individual & Family</li>
+                        <li>Transparency in Coverage</li>
+                        <li>Medicare</li>
+                        <li>Medicaid</li>
+                        <li>Federal Employees</li>
+                        <li>Employers</li>
+                        <li>Producers</li>
+                        <li>Providers</li>
+                    </ul>
+                </div>
+                <div class='ftr-col-3 space-y-4'>
+                    <div class='foot-link-ico flex items-center space-x-2 fstripe'>
+                        <img src='images/x.svg' alt='X logo' width='24' height='24'>
+                        <p>Follow us on X</p>
                     </div>
-
-                    <div class='list-w-ico flex items-start space-x-2'>
-                        <img src='images/feat3.svg' alt='feat3' width='40' height='40'>
-                        <p class='leading-6'>When it’s time for you to renew, you’ll get a notice telling you what to
-                            do. <strong>Be sure to follow the steps to renew before your deadline.</strong> If you have
-                            questions, call the Member Services number on your insurance ID card.</p>
+                    <div class='foot-link-ico flex items-center space-x-2 fstripe pb-2'>
+                        <img src='images/youtube.png' alt='YouTube logo' width='24' height='24'>
+                        <p>Subscribe to our YouTube channel</p>
                     </div>
-                </div>
-            </div>
-
-</main>
-
-<footer class='bg-black text-white py-16 mt-16 text-sm'>
-    <div class='flex justify-center'>
-        <div class='grid grid-cols-1 md:grid-cols-3 gap-28'>
-            <div class='ftr-col-1'>
-                <ul class='space-y-2'>
-                    <li>About Anthem</li>
-                    <li>Careers</li>
-                    <li>News From Our Press Room</li>
-                    <li>Site Map</li>
-                    <li>Contact Us</li>
-                </ul>
-            </div>
-            <div class='ftr-col-2'>
-                <ul class='space-y-2'>
-                    <li>Individual & Family</li>
-                    <li>Transparency in Coverage</li>
-                    <li>Medicare</li>
-                    <li>Medicaid</li>
-                    <li>Federal Employees</li>
-                    <li>Employers</li>
-                    <li>Producers</li>
-                    <li>Providers</li>
-                </ul>
-            </div>
-            <div class='ftr-col-3 space-y-4'>
-                <div class='foot-link-ico flex items-center space-x-2 fstripe'>
-                    <img src='images/x.svg' alt='X logo' width='24' height='24'>
-                    <p>Follow us on X</p>
-                </div>
-                <div class='foot-link-ico flex items-center space-x-2 fstripe pb-2'>
-                    <img src='images/youtube.png' alt='YouTube logo' width='24' height='24'>
-                    <p>Subscribe to our YouTube channel</p>
-                </div>
-                <div class='foot-link-ico flex items-center space-x-2 fstripe'>
-                    <img src='images/fb.svg' alt='Facebook logo' width='24' height='24'>
-                    <p>Facebook</p>
-                </div>
-                <div class='foot-link-ico flex items-center space-x-2 mb-6 pb-2 fstripe'>
-                    <img src='images/syd.svg' alt='Sydney Health App logo' width='24' height='24'>
-                    <p>Download the Sydney Health App</p>
+                    <div class='foot-link-ico flex items-center space-x-2 fstripe'>
+                        <img src='images/fb.svg' alt='Facebook logo' width='24' height='24'>
+                        <p>Facebook</p>
+                    </div>
+                    <div class='foot-link-ico flex items-center space-x-2 mb-6 pb-2 fstripe'>
+                        <img src='images/syd.svg' alt='Sydney Health App logo' width='24' height='24'>
+                        <p>Download the Sydney Health App</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 </body>
+
 </html>
