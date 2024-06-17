@@ -153,8 +153,7 @@
 
 .mdco {
     background-color: var(--global-bg-blue-200);
-    margin-top: var(--global-none);
-
+    border-top: var(--global-none);
 }
 
 .mdco h2 {

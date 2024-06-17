@@ -149,11 +149,11 @@
         "type": "color"
       },
       "bg-blue-200": {
-        "value": "rgb(191 219 254)",
+        "value": "white",
         "type": "background"
       },
       "text-blue-800": {
-        "value": "rgb(30 64 175)",
+        "value": "#333",
         "type": "color"
       },
       "text-size-3xl": {
@@ -179,6 +179,14 @@
       "pb-20": {
         "value": "80px",
         "type": "padding-bottom"
+      },
+      "clear": {
+        "value": "inline",
+        "type": "display"
+      },
+      "co-bdr": {
+        "value": "15px solid #FAFAFA",
+        "type": "border"
       }
     }
   }

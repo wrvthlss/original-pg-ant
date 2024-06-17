@@ -88,6 +88,10 @@
         "value": "48px",
         "type": "line-height"
       },
+      "text-lg": {
+        "value": "18px",
+        "type": "text-size"
+      },
       "bg-green-500": {
         "value": "rgb(34 197 94)",
         "type": "background"
