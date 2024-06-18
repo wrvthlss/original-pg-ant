@@ -1,27 +1,27 @@
 {
   "global": {
     "none": {
-      "value": "12px solid #F9FAFB",
-      "type": "border"
+      "value": "0",
+      "type": "generic"
     },
     "txt-sm": {
       "value": "14px",
       "type": "text-size"
     },
     "txt-base": {
-      "value": "14px",
+      "value": "16px",
       "type": "text-size"
     },
     "txt-lg": {
-      "value": "14px",
-      "type": "text-size"
-    },
-    "txt-xl": {
       "value": "18px",
       "type": "text-size"
     },
+    "txt-xl": {
+      "value": "24px",
+      "type": "text-size"
+    },
     "mh-txt": {
-      "value": "#333",
+      "value": "#fff",
       "type": "color"
     },
     "lib-brdr": {
@@ -29,27 +29,27 @@
       "type": "color"
     },
     "ph-bg": {
-      "value": "#3b82f6",
+      "value": "#fff",
       "type": "background"
     },
     "bg-gray-200": {
-      "value": "rgb(29 78 216)",
+      "value": "rgb(229 231 235)",
       "type": "background"
     },
     "text-black": {
-      "value": "#fff",
+      "value": "#333",
       "type": "color"
     },
     "bg-white": {
-      "value": "#2c915b",
+      "value": "#fff",
       "type": "background"
     },
     "text-blue-500": {
-      "value": "#fff",
+      "value": "rgb(59 130 246)",
       "type": "color"
     },
     "rounded-3xl": {
-      "value": "12px",
+      "value": "24px",
       "type": "border-radius"
     },
     "pxy-63": {
@@ -61,7 +61,7 @@
       "type": "font-weight"
     },
     "border-blue-500": {
-      "value": "2px solid #2c915b",
+      "value": "2px solid rgb(59 130 246)",
       "type": "border"
     },
     "bg-blue-500": {
@@ -81,7 +81,7 @@
       "type": "border"
     },
     "hero-img": {
-      "value": "url('images/masthead-bg.jpeg')",
+      "value": "url('images/hero-img.png')",
       "type": "background-image"
     },
     "hero-pos": {
@@ -89,27 +89,27 @@
       "type": "background-position"
     },
     "hero-height": {
-      "value": "510px",
+      "value": "570px",
       "type": "height"
     },
     "text-size-5xl": {
-      "value": "36px",
+      "value": "48px",
       "type": "text-size"
     },
     "h1-leading": {
-      "value": "36px",
+      "value": "48px",
       "type": "line-height"
     },
     "text-lg": {
-      "value": "16px",
+      "value": "18px",
       "type": "text-size"
     },
     "bg-green-500": {
-      "value": "#f4ba01",
+      "value": "rgb(34 197 94)",
       "type": "background"
     },
     "bg-phbtn": {
-      "value": "rgb(40, 108, 226)",
+      "value": "#fff",
       "type": "background"
     },
     "ico-feat1": {
@@ -145,51 +145,51 @@
       "type": "background-position"
     },
     "ico-feat-fltr": {
-      "value": "brightness(1) invert(0)",
+      "value": "brightness(0) invert(1)",
       "type": "filter"
     },
     "pad-96": {
-      "value": "26px 96px",
+      "value": "96px 96px",
       "type": "padding"
     },
     "feat-bg": {
-      "value": "white",
+      "value": "#1e40af",
       "type": "background"
     },
     "feat-clr": {
-      "value": "#333",
+      "value": "#fff",
       "type": "color"
     },
     "bg-blue-200": {
-      "value": "#fff",
+      "value": "rgb(191 219 254)",
       "type": "background"
     },
     "text-blue-800": {
-      "value": "#333",
+      "value": "rgb(30 64 175)",
       "type": "color"
     },
     "text-size-3xl": {
-      "value": "30px",
+      "value": "36px",
       "type": "text-size"
     },
     "text-size-xl": {
-      "value": "20px",
+      "value": "28px",
       "type": "text-size"
     },
     "text-size-2xl": {
-      "value": "30px",
+      "value": "32px",
       "type": "text-size"
     },
     "mt-20": {
-      "value": "90px",
+      "value": "80px",
       "type": "margin-top"
     },
     "pt-20": {
-      "value": "90px",
+      "value": "80px",
       "type": "padding-top"
     },
     "pb-20": {
-      "value": "90px",
+      "value": "80px",
       "type": "padding-bottom"
     }
   }
